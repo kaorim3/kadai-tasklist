@@ -3,7 +3,7 @@
 <c:import url = "../layout/app.jsp">
 	<c:param name="content">
 
-		<h2><c:out value ="${task.id}"/>の編集ページ</h2>
+		<h2>id:<c:out value ="${task.id}"/>の編集ページ</h2>
 
 		<form method = "POST" action = "${pageContext.request.contextPath}/update">
 			<c:import url="_form.jsp" />
